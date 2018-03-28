@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "PolyvIJKPlayer"
-	s.version      = "0.0.3"
+	s.version      = "0.1.0"
 	s.summary      = "保利威视iOS点播、直播播放器"
 	s.description  = <<-DESC
 	PolyvIJKPlayer
@@ -37,7 +37,9 @@ SOFTWARE.
 		"bqlin" => "bqlins@163.com"
 	}
 	s.source = { 
-		:http => "http://linbinquan@repo.polyv.net/ios/download/ijkplayer/vod/ff3.3-ijk0.8.0-plv02-171212/IJKMediaFramework.framework-fat.zip"
+		# http://linbinquan@repo.polyv.net/ios/download/ijkplayer/vod/ff3.3-ijk0.8.0-plv02-171212/IJKMediaFramework.framework-fat.zip
+		# http://repo.polyv.net/ios/download/ijkplayer/vod/ff3.3-ijk0.8.4-plv01-180126/IJKMediaFramework_0.8.4+20180126.zip
+		:http => "http://repo.polyv.net/ios/download/ijkplayer/vod/ff3.3-ijk0.8.4-plv01-180126/IJKMediaFramework_0.8.4+20180126.zip"
 	}
 	s.vendored_frameworks = "IJKMediaFramework.framework"
 	s.requires_arc = true
