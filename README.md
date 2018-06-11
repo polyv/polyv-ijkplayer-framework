@@ -20,7 +20,19 @@ end
 
 ## 历史版本
 
-### v0.1.1
+### v0.2.0
+
+- [FFmpeg] 修复明文密钥加密视频无法播放的问题
+
+下载：[k0.8.4+180607](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+180607.zip)
+
+### v0.1.2
+
+- 同 v0.1.0 版本
+
+### v0.1.1（弃）
+
+*已更新为v0.2.0版本*
 
 - [FFmpeg] 修复明文密钥加密视频无法播放的问题
 
