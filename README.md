@@ -20,6 +20,13 @@ end
 
 ## 历史版本
 
+### v0.3.0
+
+- [FFmpeg] hls视频增加EXT-X-DISCONTINUITY支持
+- [ijkplayer] 修复hls视频前后台切换，视频画面卡住问题
+
+下载：[k0.8.4+180717](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+180717.zip)
+
 ### v0.2.0
 
 - [FFmpeg] 修复明文密钥加密视频无法播放的问题
