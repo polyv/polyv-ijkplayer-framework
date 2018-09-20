@@ -1,5 +1,5 @@
 # PolyvIJKPlayer
-保利威视 iOS 点播、直播播放器，基于 ijkplayer 及 底层 ffmpeg 解码器。
+保利威 iOS 点播、直播播放器，基于 ijkplayer 及 底层 ffmpeg 解码器。
 
 ## 添加方式
 
