@@ -16,7 +16,26 @@ end
 
 2. 手动下载
 
-   历史版本中找到对应版本下载，然后手动添加至项目工程。
+   历史版本中找到对应版本下载，然后手动添加至项目工程，导入系统依赖库。
+   
+```
+    Build Phases -> Link Binary with Libraries -> Add:
+#         IJKMediaFramework.framework
+#
+#         AudioToolbox.framework
+#         AVFoundation.framework
+#         CoreGraphics.framework
+#         CoreMedia.framework
+#         CoreVideo.framework
+#         libbz2.tbd
+#         libz.tbd
+#         MediaPlayer.framework
+#         MobileCoreServices.framework
+#         OpenGLES.framework
+#         QuartzCore.framework
+#         UIKit.framework
+#         VideoToolbox.framework
+```
 
 ## 历史版本
 
