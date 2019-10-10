@@ -37,7 +37,7 @@ SOFTWARE.
 		"bqlin" => "bqlins@163.com"
 	}
 	s.source = {
-    :http => "https://repo.polyv.net/ios/download/ijkplayer/vod/dylib/IJKMediaFramework-dylib-k0.8.8+191009.zip"
+    :http => "https://repo.polyv.net/ios/download/ijkplayer/vod/dylib/IJKMediaFramework-dylib-k0.8.8+191010.zip"
 
 	}
 	s.vendored_frameworks = "PolyvIJKMediaFramework.framework"
