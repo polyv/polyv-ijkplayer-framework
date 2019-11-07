@@ -40,7 +40,7 @@ SOFTWARE.
    	  :http => "https://repo.polyv.net/ios/download/ijkplayer/vod/dylib/IJKMediaFramework-dylib-k0.8.8+191106.zip"
 	}
 	
-	s.vendored_frameworks = "PolyvIJKMediaFramework.framework"
+	s.vendored_frameworks = "IJKMediaFramework.framework"
 	s.requires_arc = true
 	s.platform = :ios, "8.0"
 	s.library = "z", "stdc++", "bz2", "resolv"
