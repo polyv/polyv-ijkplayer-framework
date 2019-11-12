@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "PolyvIJKPlayer_Cus"
-	s.version      = "0.4.1"
+	s.version      = "0.5.0"
 	s.summary      = "保利威 iOS 点播、直播播放器"
 	s.description  = <<-DESC
 	PolyvIJKPlayer
@@ -34,10 +34,10 @@ SOFTWARE.
   }
 	s.author = { 
 		"ftao" => "fft1026@163.com",
-		"bqlin" => "bqlins@163.com"
+		"lien" => "libenlong@corp.polyv.net"
 	}
 	s.source = {
-        :http => "http://repo.polyv.net/ios/download/ijkplayer/vod/dylib/IJKMediaFramework-Cus-dylib-k0.8.8+190816.zip"
+        :http => "http://repo.polyv.net/ios/download/ijkplayer/vod/cus/IJKMediaFramework-dylib-k0.8.8+191112.zip"
 	}
 	s.vendored_frameworks = "PolyvIJKMediaFramework.framework"
 	s.requires_arc = true

@@ -37,8 +37,8 @@ SOFTWARE.
 		"bqlin" => "bqlins@163.com"
 	}
 	s.source = {
-    #:http => "http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+190110.zip"
-    :http => "http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+191012.zip"
+    	#:http => "http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+190110.zip"
+    	:http => "http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+191012.zip"
 	}
 	s.vendored_frameworks = "IJKMediaFramework.framework"
 	s.requires_arc = true

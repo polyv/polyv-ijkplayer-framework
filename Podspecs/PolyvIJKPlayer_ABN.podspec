@@ -34,7 +34,7 @@ SOFTWARE.
   }
 	s.author = { 
 		"ftao" => "fft1026@163.com",
-		"bqlin" => "bqlins@163.com"
+		"lien" => "libenlong@corp.polyv.net"
 	}
 	s.source = {
    	:http => "http://repo.polyv.net/ios/download/ijkplayer/vod/abn/IJKMediaFramework-abn-k0.8.8+190529.zip"

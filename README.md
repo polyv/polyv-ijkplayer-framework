@@ -39,43 +39,83 @@ end
 
 ## 历史版本
 
-### 0.4.0
+#### 0.4.2
+
+- 首次播放，模拟器上卡顿10s 左右问题修复
+
+- 提供显示网络加载速度的接口
+
+- 播放器销毁时崩溃尝试解决
+
+  [k0.8.8+191012](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+191012.zip)
+
+#### 0.4.1
+
+- m3u8 播放地址支持 httpdns
+
+  [k0.8.8+190810](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+190810.zip)
+
+#### 0.4.0
 
 - [ijkplayer] 升级至 0.8.8 版本
 
-[k0.8.8+190110 download](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+190110.zip)
+  [k0.8.8+190110](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.8+190110.zip)
 
-### 0.3.1
+#### 0.3.1
 
 - [ijkplayer] 修复后台初始化播放器，回到前台黑屏问题
 - [FFmpeg] 添加精确 seek
 
-[k0.8.4+181121 download](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+181121.zip)
+  [k0.8.4+181121](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+181121.zip)
 
-### 0.3.0
+#### 0.3.0
 
 - [ijkplayer] 修复hls视频前后台切换，视频画面卡住问题
 - [FFmpeg] hls视频增加EXT-X-DISCONTINUITY支持
 
-[k0.8.4+180717 download](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+180717.zip)
+  [k0.8.4+180717](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+180717.zip)
 
-### 0.2.0
+#### 0.2.0
 
 （同 0.1.1）
 
-### 0.1.2
+#### 0.1.2
 
 （同 0.1.0）
 
-### 0.1.1
+#### 0.1.1
 
 - [FFmpeg] 修复明文密钥加密视频无法播放的问题
 
-[k0.8.4+180607 download](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+180607.zip)
+  [k0.8.4+180607](http://repo.polyv.net/ios/download/ijkplayer/vod/IJKMediaFramework-k0.8.4+180607.zip)
 
-### 0.1.0
+#### 0.1.0
 
 - [ijkplayer] 移除无有效信息的 Log 输出
 - [ijkplayer] 添加 IJK_LOG_LEVEL 统一日志等级
 
-[k0.8.4+20180126 download](http://repo.polyv.net/ios/download/ijkplayer/vod/ff3.3-ijk0.8.4-plv01-180126/IJKMediaFramework_0.8.4+20180126.zip)
+  [k0.8.4+20180126](http://repo.polyv.net/ios/download/ijkplayer/vod/ff3.3-ijk0.8.4-plv01-180126/IJKMediaFramework_0.8.4+20180126.zip)
+
+
+
+### ABN  版本
+
+#### 0.4.1
+
+
+
+### Cus  版本
+
+#### 0.4.1
+
+- 动态库，处理ffmpeg冲突问题
+
+#### 0.5.0
+
+- 动态追帧
+- RTC SEI信息
+
+### Dylib  版本
+
+- 动态库，处理播放器冲突
+
