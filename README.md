@@ -106,14 +106,19 @@ end
 
 ### Cus  版本
 
-#### 0.4.1
+#### 0.5.1
 
-- 动态库，处理ffmpeg冲突问题
+- `-tcpSpeed` 接口返回值更新为 字符串
+- 新增  `-originalTcpSpeed` 接口返回int64_t类型的 tcp speed 参数值
 
 #### 0.5.0
 
 - 动态追帧
 - RTC SEI信息
+
+#### 0.4.1
+
+- 动态库，处理ffmpeg冲突问题
 
 ### Dylib  版本
 
