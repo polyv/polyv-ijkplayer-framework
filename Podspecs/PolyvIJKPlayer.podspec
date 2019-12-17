@@ -34,12 +34,12 @@ SOFTWARE.
   }
 	s.author = {
 		"ftao" => "fft1026@163.com",
-		"lien" => "libenlong@corp.polyv.net"
+		"lien" => "libenlong@corp.polyv.net",
 		"bqlin" => "bqlins@163.com"
 	}
 
 	s.source = {
-    	:http => "http://repo.polyv.net/ios/download/ijkplayer/vod/cus/IJKMediaFramework-dylib-k0.8.8+191205.zip"
+    	:http => "https://repo.polyv.net/ios/download/ijkplayer/vod/cus/IJKMediaFramework-dylib-k0.8.8+191205.zip"
 	}
 	s.vendored_frameworks = "PolyvIJKMediaFramework.framework"
 	
