@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "PolyvIJKPlayer"
-	s.version      = "0.6.1"
+	s.version      = "0.7.0"
 	s.summary      = "保利威 iOS 点播、直播播放器"
 	s.description  = <<-DESC
 	PolyvIJKPlayer
