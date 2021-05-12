@@ -39,6 +39,11 @@ end
 
 ## 历史版本
 
+### 0.9.4
+
+- FFMpeg瘦身
+-增加force-seek-zeroth-to-first配置项，修复m3u8视频无法seek到0的问题
+
 ### 0.9.3
 
 - 裁剪视频seek优化
