@@ -43,6 +43,10 @@ end
 
 - 去polyv化
 
+### 0.9.7
+
+- 对PLVIJKFFMovieController添加运行时代码保护
+
 ### 0.9.6
 
 - 支持drm12方案的视频播放
