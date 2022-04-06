@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "PLVIJKPlayer"
-	s.version      = "0.11.0"
+	s.version      = "0.11.1"
 	s.summary      = "保利威 iOS 点播、直播播放器"
 	s.description  = <<-DESC
 	PLVIJKPlayer
@@ -38,7 +38,7 @@ SOFTWARE.
 	}
 
 	s.source = {
-    		:http => "https://polyv-repo.oss-cn-shenzhen.aliyuncs.com/ios/download/ijkplayer/vod/cus/PLVIJKPlayer-dylib-k0.8.8-211216.zip"
+    		:http => "https://polyv-repo.oss-cn-shenzhen.aliyuncs.com/ios/download/ijkplayer/vod/cus/PLVIJKPlayer-dylib-k0.8.8-220406.zip"
 	}
 	s.vendored_frameworks = "PLVIJKPlayer.framework"
 	
