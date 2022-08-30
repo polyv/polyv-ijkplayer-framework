@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 	s.name         = "PLVIJKPlayer"
-	s.version      = "0.11.2"
+	s.version      = "0.11.3"
 	s.summary      = "保利威 iOS 点播、直播播放器"
 	s.description  = <<-DESC
 	PLVIJKPlayer
@@ -35,10 +35,11 @@ SOFTWARE.
 	s.author = {
 		"ftao" => "fft1026@163.com",
 		"lien" => "libenlong@polyv.net",
+		"junotang" => "dengjunlun@polyv.net",
 	}
 
 	s.source = {
-    		:http => "https://polyv-repo.oss-cn-shenzhen.aliyuncs.com/ios/download/ijkplayer/vod/cus/PLVIJKPlayer-dylib-k0.8.8-220622.zip"
+    		:http => "https://polyv-repo.oss-cn-shenzhen.aliyuncs.com/ios/download/ijkplayer/vod/cus/PLVIJKPlayer-dylib-k0.8.8-220830.zip"
 	}
 	s.vendored_frameworks = "PLVIJKPlayer.framework"
 	
